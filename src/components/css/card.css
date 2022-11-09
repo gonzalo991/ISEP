@@ -43,5 +43,18 @@
 
     .card {
         width: 30vw;
+        height: 300px;
+    }
+
+    .card:nth-child(1){
+        position: absolute;
+        top: 590px;
+        left: 120px;
+    }
+
+    .card:nth-child(2){
+        position: absolute;
+        top: 590px;
+        right: 120px;
     }
 }

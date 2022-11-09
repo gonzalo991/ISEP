@@ -95,12 +95,12 @@
         {
             "_id": 1,
             "titulo": "Título Oficial",
-            "texto": "Los títulos que otorgamos están avalados por el ministerio de edicación de la nación."
+            "texto": "Los títulos que otorgamos a nuestros egresados están avalados por el ministerio de educación."
         },
         {
             "_id": 2,
             "titulo": "Los mejores profesores",
-            "texto": "Contamos con el mejor equipo docente para que recibas educación de calidad."
+            "texto": "Contamos con el mejor equipo docente para que recibas educación de calidad. No pierdas ésta oportunidad."
         }
     ]
 }

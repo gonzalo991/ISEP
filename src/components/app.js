@@ -10,13 +10,13 @@ function App() {
             <Header />
 
             <main>
-                <Router/>
+                <Router />
             </main>
 
             <footer>
+
             </footer>
         </BrowserRouter>
-
     )
 }
 

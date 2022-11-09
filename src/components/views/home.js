@@ -2,9 +2,11 @@ import React from "react";
 import Slider from "../fragments/slider";
 import CardList from "../fragments/cardList";
 import { useState, useEffect } from 'react';
+import SobreNos from "../fragments/sobrenos";
 
 function Home() {
 
+    //Utilizo un estado para setear el contenido de las tarjetas
     const [tarjetas, setTarjetas] = useState(null);
 
     useEffect(() => {
@@ -15,6 +17,7 @@ function Home() {
         })()
     }, []);
 
+
     return (
         <>
             <Slider />
@@ -24,6 +27,8 @@ function Home() {
                     :
                     <h2>Cargando...</h2>
             }
+
+            <SobreNos/>
         </>
 
     )

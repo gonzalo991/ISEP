@@ -22,6 +22,28 @@ img {
   max-height: 300px;
 }
 
+.contacto {
+  height: 35px;
+  width: 90px;
+  background-color: #e87e27;
+  border: solid 1px #fff;
+  border-radius: 10px;
+}
+
+.contacto-link {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+.contacto:hover {
+  background-color: rgb(160, 38, 38);
+}
+
+.contacto-link:hover {
+  color: #000;
+}
+
 @media (min-width: 769px) {
   img {
     max-height: 550px;
@@ -71,6 +93,80 @@ img {
   }
   .card {
     width: 30vw;
+    height: 300px;
+  }
+  .card:nth-child(1) {
+    position: absolute;
+    top: 590px;
+    left: 120px;
+  }
+  .card:nth-child(2) {
+    position: absolute;
+    top: 590px;
+    right: 120px;
+  }
+}
+/*!**************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/css/sobrenos.css ***!
+  \**************************************************************************************************************************/
+.cabecera {
+  margin-top: 35px;
+  text-align: center;
+  text-decoration: underline;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.contenido img {
+  width: 90vw;
+  height: 200px;
+  margin: 10px 12px;
+}
+
+.texto-titulo {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.texto-parrafo {
+  margin: 10px 12px 12px;
+}
+
+@media (min-width: 769px) {
+  .cabecera {
+    margin-top: 380px;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 2.3rem;
+    font-weight: bold;
+  }
+  .contenido {
+    margin-top: 90px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column: 6span;
+    grid-gap: 10px;
+  }
+  .contenido img {
+    height: 400px;
+    width: 50vw;
+    position: absolute;
+    right: 20px;
+  }
+  .texto-container {
+    width: 45vw;
+    margin-left: 20px;
+  }
+  .texto-titulo {
+    margin-top: 80px;
+    font-size: 1.7rem;
+    font-weight: bold;
+  }
+  .texto-parrafo {
+    margin-top: 45px;
+    font-size: 1.4rem;
+    font-weight: 400;
   }
 }
 /*!************************************************************************************************************************!*\
@@ -79,6 +175,11 @@ img {
 .header {
   width: 100vw;
   height: 12.3vh;
+}
+
+.navbar-brand img {
+  height: 45px;
+  width: 60px;
 }
 
 .navbar {

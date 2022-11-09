@@ -1,7 +1,11 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import '../css/slider.css';
 
 function Slider() {
+
+    //Solucionar problema con el redireccionamiento de los link, el funcionamiento de los botones del slider
+    //y el hover de los botones . Nota: Creo que tiene que ver con el código de bootstrap
 
     return (
 
@@ -13,31 +17,31 @@ function Slider() {
             </div>
             <div className="carousel-inner">
                 <div className="carousel-item active">
-                    <img src="img/motivacion-y-esfuerzo.jpg" className="d-block w-100" alt="..."/>
-                        <div className="carousel-caption d-none d-md-block">
-                            <h5>Estudiá una carrera con amplia salida laboral y título oficial</h5>
-                            <button>Ver más</button>
-                        </div>
+                    <img src="img/motivacion-y-esfuerzo.jpg" className="d-block w-100" alt="..." />
+                    <div className="carousel-caption d-none d-md-block">
+                        <h5>Estudiá una carrera con amplia salida laboral y título oficial</h5>
+                        <button className="contacto"><Link className="contacto-link" to='/contacto'>Saber más</Link></button>
+                    </div>
                 </div>
                 <div className="carousel-item">
-                    <img src="img/estudiantes-universitarios-20220408-1339126.jpg" className="d-block w-100"/>
-                        <div className="carousel-caption d-none d-md-block">
+                    <img src="img/estudiantes-universitarios-20220408-1339126.jpg" className="d-block w-100" />
+                    <div className="carousel-caption d-none d-md-block">
                         <h5>Estudiá una carrera con amplia salida laboral y título oficial</h5>
-                            <button>Ver más</button>
-                        </div>
+                        <button className="contacto"><Link className="contacto-link" to='/contacto'>Saber más</Link></button>
+                    </div>
                 </div>
                 <div className="carousel-item">
-                    <img src="img/estudiar-online-en-casa-para-universitarios.jpg" className="d-block w-100" alt="..."/>
-                        <div className="carousel-caption d-none d-md-block">
+                    <img src="img/estudiar-online-en-casa-para-universitarios.jpg" className="d-block w-100" alt="..." />
+                    <div className="carousel-caption d-none d-md-block">
                         <h5>Estudiá una carrera con amplia salida laboral y título oficial</h5>
-                            <button>Ver más</button>
-                        </div>
+                        <button className="contacto"><Link className="contacto-link" to='/contacto'>Saber más</Link></button>
+                    </div>
                 </div>
             </div>
         </div>
 
     )
-    
+
 }
 
 export default Slider;

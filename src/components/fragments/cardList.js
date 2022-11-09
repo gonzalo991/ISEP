@@ -9,12 +9,11 @@ function CardList({ tarjetasArray }) {
         <div className="tarjetas">
             {
                 tarjetasArray.map(card => {
-
-                    const { _id, titulo, texto } = card;
-
+                  
                     return (
                         <Card cards={card} />
                     )
+                    
                 })
             }
         </div>

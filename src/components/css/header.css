@@ -3,6 +3,11 @@
     height: 12.3vh;
 }
 
+.navbar-brand img {
+    height: 45px;
+    width: 60px;
+}
+
 .navbar {
     width: 100vw;
     z-index: 3;
