@@ -12,8 +12,7 @@ function CardList({ tarjetasArray }) {
                   
                     return (
                         <Card cards={card} />
-                    )
-                    
+                    )                    
                 })
             }
         </div>

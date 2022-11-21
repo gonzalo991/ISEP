@@ -6,28 +6,10 @@ img {
     max-height: 300px;
 }
 
-.contacto {
-    height: 35px;
-    width: 90px;
-
-    background-color: #e87e27;
-    border: solid 1px #fff;
-    border-radius: 10px;
+h5 {
+    font-size: 2rem;
 }
 
-.contacto-link {
-    text-decoration: none;
-    color: #fff;
-    font-weight: bold;
-}
-
-.contacto:hover {
-    background-color: rgb(160, 38, 38);
-}
-
-.contacto-link:hover {
-    color: #000;
-}
 
 @media(min-width: 769px) {
     img {
