@@ -1,0 +1,24 @@
+h1 {
+    margin: 20px;
+    padding: 5px;
+
+    text-align: center;
+    font-weight: 600;
+}
+
+hr {
+    width: 80vw;
+    margin-left: 25px;
+    color: darkblue;
+}
+
+.sede-info img {
+    height: 250px;
+    width: 250px;
+
+    margin: 15px;
+}
+
+.sede-info .sede-text {
+    margin: 20px;
+}

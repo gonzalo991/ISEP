@@ -21,9 +21,6 @@ function Header() {
                             <li className="nav-item">
                                 <Link className="nav-link" aria-current="page" to="/">Inicio</Link>
                             </li>
-                            <li className="nav-item">
-                                <Link className="nav-link" aria-current="page" to="/institucional">Institucional</Link>
-                            </li>
                             <li className="nav-item dropdown">
                                 <Link className="nav-link dropdown-toggle" to="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Carreras
@@ -43,7 +40,6 @@ function Header() {
                     </div>
                 </div>
             </nav>
-
             <Outlet />
         </header>
     )

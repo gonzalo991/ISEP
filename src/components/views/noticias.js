@@ -1,7 +1,10 @@
 import React from "react";
+import '../css/noticias.css';
 
-function Noticias(){
-    return(
+//Crear las rutas en el router.js
+
+function Noticias() {
+    return (
         <h1>Noticias</h1>
     )
 }

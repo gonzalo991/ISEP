@@ -3,6 +3,8 @@ import Slider from "../fragments/slider";
 import CardList from "../fragments/cardList";
 import { useState, useEffect } from 'react';
 import SobreNos from "../fragments/sobrenos";
+import Institucional from "../fragments/institucional";
+import Footer from '../layout/footer';
 
 function Home() {
 
@@ -28,7 +30,12 @@ function Home() {
                     <h2>Cargando...</h2>
             }
 
-            <SobreNos/>
+            <SobreNos />
+
+            <Institucional />
+
+            <Footer />
+
         </>
 
     )
