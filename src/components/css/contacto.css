@@ -1,0 +1,96 @@
+.contacto {
+    margin-top: 20px;
+    padding: 5px;
+}
+
+.contacto-formulario {
+    display: block;
+    align-items: center;
+}
+
+.campo {
+    margin: 20px;
+    display: block;
+
+    align-items: center;
+}
+
+.campo input {
+    width: 90vw;
+    border: solid 2px #ffffff;
+    border-radius: 5px;
+}
+
+.campo input:hover {
+    background-color: aqua;
+    border: solid 2px coral;
+}
+
+textarea {
+    width: 90vw;
+    border: solid 2px #ffffff;
+    border-radius: 5px;
+}
+
+textarea:hover {
+    border: solid 2px coral;
+    background-color: aqua;
+}
+
+.boton-enviar {
+    height: 35px;
+    width: 120px;
+
+    margin-top: 20px;
+
+    color: #ffffff;
+    font-size: 1rem;
+
+    border: solid 2px coral;
+    border-radius: 8px;
+
+    background-color: coral;
+}
+
+
+.boton-enviar:hover {
+    font-size: 1.1rem;
+    font-weight: 500;
+
+    color: #000;
+
+    border: solid 2px aqua;
+}
+
+
+@media(min-width: 769px) {
+    form {
+        display: flex;
+        align-content: center;
+    }
+
+    .campos {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .campos .campo {
+        display: inline-block;
+    }
+
+    .campo label {
+        display: block;
+    }
+
+    .campo input {
+        height: 30px;
+        width: 39vw;
+    }
+
+    textarea {
+        width: 88vw;
+        height: 300px;
+        
+        margin: 20px 50px;
+    }
+}

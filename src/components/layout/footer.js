@@ -1,6 +1,5 @@
 import React from "react";
 import Contacto from "../fragments/contacto";
-import Redes from '../fragments/redes';
 import '../css/footer.css';
 
 function Footer() {
@@ -13,12 +12,9 @@ function Footer() {
                 <div className="contacto">
                     <Contacto />
                 </div>
-                <div className="redes-sociales">
-                    <Redes />
-                </div>
             </div>
             <div className="copyright">
-                <p> &copy Copyright  Oscar Gonzalo Araya - Técnico Universitario En Programación</p>
+                <p> &copy;Copyright 2022  Oscar Gonzalo Araya - Técnico Universitario En Programación</p>
             </div>
         </footer>
     )

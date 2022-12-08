@@ -1,0 +1,23 @@
+footer {
+
+    color: #ffffff;
+    text-align: center;
+
+    background-color: aqua;
+
+    margin-bottom: 0;
+}
+
+.logo img {
+    margin-top: 15px;
+}
+
+
+.copyright {
+    height: 30px;
+    margin-top: 35px;
+    font-size: 0.7rem;
+    background-color: #000;
+}
+
+

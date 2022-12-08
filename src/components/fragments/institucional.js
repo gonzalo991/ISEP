@@ -4,7 +4,7 @@ import '../css/institucional.css';
 function Institucional() {
     return (
         <>
-                <h1 className="titulo sede">Nuestra Sede</h1>
+                <h1 className="titulo-sede">Nuestra Sede</h1>
                 <hr></hr>
                 <div className="sede-info">
                     <img src="img/sede-isep.JPG" alt="" />

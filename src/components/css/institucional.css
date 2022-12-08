@@ -1,4 +1,4 @@
-h1 {
+.titulo-sede {
     margin: 20px;
     padding: 5px;
 
@@ -13,12 +13,33 @@ hr {
 }
 
 .sede-info img {
-    height: 250px;
-    width: 250px;
+    height: 80vh;
+    width: 80vw;
 
-    margin: 15px;
+    margin: 15px 50px 15px 50px;
 }
 
 .sede-info .sede-text {
     margin: 20px;
+}
+
+@media(min-width: 769px) {
+    .titulo-sede {
+        margin-top: 200px;
+    }
+
+    .sede-info img {
+        height: 85vh;
+        width: 85vw;
+
+        margin: 20px 80px 20px 100px;
+    }
+
+    .sede-info .sede-text {
+        margin-bottom: 50px;
+
+        font-size: 1.8rem;
+
+        text-align: center;
+    }
 }

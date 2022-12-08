@@ -39,7 +39,7 @@ h5 {
 }
 
 .card {
-  height: 15rem;
+  height: auto;
   width: 90vw;
   margin: 15px auto;
   text-align: center;
@@ -154,7 +154,7 @@ h5 {
 /*!*******************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/css/institucional.css ***!
   \*******************************************************************************************************************************/
-h1 {
+.titulo-sede {
   margin: 20px;
   padding: 5px;
   text-align: center;
@@ -168,18 +168,134 @@ hr {
 }
 
 .sede-info img {
-  height: 250px;
-  width: 250px;
-  margin: 15px;
+  height: 80vh;
+  width: 80vw;
+  margin: 15px 50px 15px 50px;
 }
 
 .sede-info .sede-text {
   margin: 20px;
 }
+
+@media (min-width: 769px) {
+  .titulo-sede {
+    margin-top: 200px;
+  }
+  .sede-info img {
+    height: 85vh;
+    width: 85vw;
+    margin: 20px 80px 20px 100px;
+  }
+  .sede-info .sede-text {
+    margin-bottom: 50px;
+    font-size: 1.8rem;
+    text-align: center;
+  }
+}
+/*!**************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/css/contacto.css ***!
+  \**************************************************************************************************************************/
+.contacto {
+  margin-top: 20px;
+  padding: 5px;
+}
+
+.contacto-formulario {
+  display: block;
+  align-items: center;
+}
+
+.campo {
+  margin: 20px;
+  display: block;
+  align-items: center;
+}
+
+.campo input {
+  width: 90vw;
+  border: solid 2px #ffffff;
+  border-radius: 5px;
+}
+
+.campo input:hover {
+  background-color: aqua;
+  border: solid 2px coral;
+}
+
+textarea {
+  width: 90vw;
+  border: solid 2px #ffffff;
+  border-radius: 5px;
+}
+
+textarea:hover {
+  border: solid 2px coral;
+  background-color: aqua;
+}
+
+.boton-enviar {
+  height: 35px;
+  width: 120px;
+  margin-top: 20px;
+  color: #ffffff;
+  font-size: 1rem;
+  border: solid 2px coral;
+  border-radius: 8px;
+  background-color: coral;
+}
+
+.boton-enviar:hover {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #000;
+  border: solid 2px aqua;
+}
+
+@media (min-width: 769px) {
+  form {
+    display: flex;
+    align-content: center;
+  }
+  .campos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .campos .campo {
+    display: inline-block;
+  }
+  .campo label {
+    display: block;
+  }
+  .campo input {
+    height: 30px;
+    width: 39vw;
+  }
+  textarea {
+    width: 88vw;
+    height: 300px;
+    margin: 20px 50px;
+  }
+}
 /*!************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/css/footer.css ***!
   \************************************************************************************************************************/
+footer {
+  color: #ffffff;
+  text-align: center;
+  background-color: aqua;
+  margin-bottom: 0;
+}
 
+.logo img {
+  margin-top: 15px;
+}
+
+.copyright {
+  height: 30px;
+  margin-top: 35px;
+  font-size: 0.7rem;
+  background-color: #000;
+}
 /*!**************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/css/noticias.css ***!
   \**************************************************************************************************************************/
