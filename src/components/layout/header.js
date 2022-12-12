@@ -1,5 +1,5 @@
-import { Link, Outlet } from "react-router-dom";
 import React from "react";
+import { Link, Outlet } from "react-router-dom";
 import '../css/header.css';
 
 function Header() {
@@ -21,14 +21,8 @@ function Header() {
                             <li className="nav-item">
                                 <Link className="nav-link" aria-current="page" to="/">Inicio</Link>
                             </li>
-                            <li className="nav-item dropdown">
-                                <Link className="nav-link dropdown-toggle" to="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Carreras
-                                </Link>
-                                <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                    <li><Link className="dropdown-item" to="/carreras/profnivelinicial">Prof. Nivel Inicial</Link></li>
-                                    <li><Link className="dropdown-item" to="/carreras/psicopedagogia">Psicopedagogía</Link></li>
-                                </ul>
+                            <li className="nav-item">
+                                <Link className="nav-link" aria-current="page" to="/carreras">Carreras</Link>
                             </li>
                             <li className="nav-item">
                                 <Link className="nav-link" to="/noticias">Noticias</Link>

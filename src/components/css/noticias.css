@@ -1,0 +1,44 @@
+
+
+
+
+
+@media(min-width: 769px) {
+    .titulo-noticias h1 {
+        margin-top: 20px;
+
+        color: coral;
+
+        text-align: center;
+    }
+
+    .titulo-noticias hr {
+        color: darkblue;
+    }
+
+    .noticias-anuncios {
+        margin: 50px 5%;
+        padding: 20px;
+
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 50px;
+
+    }
+
+    .noticias-anuncios .card {
+        max-height: 25rem;
+
+        margin: auto;
+        padding: 15px;
+
+        border: solid 2px aqua;
+        border-radius: 10px;
+        box-shadow: 10px 5px 5px rgb(62, 61, 61);
+    }
+
+    .pagination-nav {
+        margin: 50px;
+    }
+
+}

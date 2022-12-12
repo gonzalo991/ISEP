@@ -2,6 +2,10 @@
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/css/app.css ***!
   \*********************************************************************************************************************/
 @import url(https://fonts.googleapis.com/css2?family=Almarai&family=IBM+Plex+Sans&family=Poppins:wght@700&family=Raleway:ital,wght@0,300;1,500&family=Roboto:wght@700&family=Teko:wght@300&display=swap);
+/*!*******************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/css/inscripciones.css ***!
+  \*******************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css2?family=Almarai&family=IBM+Plex+Sans&family=Poppins:wght@700&family=Raleway:ital,wght@0,300;1,500&family=Roboto+Slab:wght@200&family=Roboto:wght@700&family=Teko:wght@300&display=swap);
 /*!*************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/css/app.css (1) ***!
   \*************************************************************************************************************************/
@@ -38,7 +42,7 @@ h5 {
   margin-top: 30px;
 }
 
-.card {
+.tarjetas .card {
   height: auto;
   width: 90vw;
   margin: 15px auto;
@@ -46,25 +50,25 @@ h5 {
   border-radius: 10px;
 }
 
-.card:nth-child(1) {
+.tarjetas .card:nth-child(1) {
   background-color: greenyellow;
 }
 
-.card:nth-child(2) {
+.tarjetas .card:nth-child(2) {
   background-color: aqua;
 }
 
-.card-body {
+.tarjetas .card-body {
   color: #fff;
 }
 
-.card-title {
+.tarjetas .card-title {
   font-size: 1.6rem;
   font-weight: bold;
   font-style: oblique;
 }
 
-.card-text {
+.tarjetas .card-text {
   font-size: 1.3rem;
 }
 
@@ -73,16 +77,16 @@ h5 {
     display: flex;
     justify-content: space-between;
   }
-  .card {
+  .tarjetas .card {
     width: 30vw;
     height: 300px;
   }
-  .card:nth-child(1) {
+  .tarjetas .card:nth-child(1) {
     position: absolute;
     top: 590px;
     left: 120px;
   }
-  .card:nth-child(2) {
+  .tarjetas .card:nth-child(2) {
     position: absolute;
     top: 590px;
     right: 120px;
@@ -193,6 +197,153 @@ hr {
   }
 }
 /*!**************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/css/noticias.css ***!
+  \**************************************************************************************************************************/
+@media (min-width: 769px) {
+  .titulo-noticias h1 {
+    margin-top: 20px;
+    color: coral;
+    text-align: center;
+  }
+  .titulo-noticias hr {
+    color: darkblue;
+  }
+  .noticias-anuncios {
+    margin: 50px 5%;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+  }
+  .noticias-anuncios .card {
+    max-height: 25rem;
+    margin: auto;
+    padding: 15px;
+    border: solid 2px aqua;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px rgb(62, 61, 61);
+  }
+  .pagination-nav {
+    margin: 50px;
+  }
+}
+/*!***********************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/css/inscripciones.css (1) ***!
+  \***********************************************************************************************************************************/
+.inscripciones-container {
+  margin: auto;
+  box-sizing: border-box;
+  font-family: "Roboto Slab", serif;
+}
+
+.inscripciones-titulo {
+  font-size: 2rem;
+  color: coral;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.requisitos-container {
+  margin: 5px;
+  display: block;
+  align-items: center;
+}
+
+.requisitos-info {
+  font-size: 1.2rem;
+  text-indent: 15px;
+}
+
+.requisitos-img {
+  height: 98vh;
+  width: 95vw;
+  margin-top: 15px;
+}
+
+.requisitos-lista {
+  list-style: none;
+}
+
+.requisitos-texto {
+  text-align: center;
+}
+
+.requisitos-titulo {
+  text-align: center;
+  padding-left: 25px;
+}
+
+@media (min-width: 768px) {
+  .requisitos-container {
+    margin: 10px;
+  }
+  .requisitos-info {
+    margin: 40px 20px 20px 40px;
+    font-size: 2rem;
+  }
+  .requisitos-img {
+    margin: 25px 10px 25px 10px;
+  }
+  .requisitos {
+    margin: 30px 0px 30px 0px;
+  }
+}
+/*!************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/css/header.css ***!
+  \************************************************************************************************************************/
+.header {
+  width: 100vw;
+  height: 12.3vh;
+}
+
+.navbar-brand img {
+  height: 45px;
+  width: 60px;
+}
+
+.navbar {
+  width: 100vw;
+  z-index: 3;
+  background-image: linear-gradient(217deg, rgba(50, 230, 250, 0.8), rgba(19, 172, 189, 0) 70.71%), linear-gradient(127deg, rgba(110, 236, 250, 0.8), rgba(142, 235, 245, 0) 70.71%), linear-gradient(336deg, rgba(23, 145, 159, 0.8), rgba(7, 96, 106, 0) 70.71%);
+}
+
+#navbarNav {
+  padding-top: 15px;
+}
+
+.dropdown-menu {
+  background-image: linear-gradient(127deg, rgba(110, 236, 250, 0.8), rgba(142, 235, 245, 0) 70.71%), linear-gradient(336deg, rgba(23, 145, 159, 0.8), rgba(7, 96, 106, 0) 70.71%);
+}
+
+.nav-link:hover {
+  background-color: aliceblue;
+  border-radius: 10px;
+}
+
+@media (min-width: 769px) {
+  .header {
+    height: 10.5vh;
+  }
+  .container-fluid {
+    display: flex;
+  }
+  #navbarNav {
+    font-size: 1.3rem;
+    justify-content: end;
+    margin-right: 50px;
+  }
+  .nav-item {
+    margin-left: 50px;
+  }
+  .dropdown-menu {
+    border-radius: 10px;
+    font-size: 1.1rem;
+  }
+  .dropdown-item:hover {
+    border-radius: 10px;
+  }
+}
+/*!**************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/css/contacto.css ***!
   \**************************************************************************************************************************/
 .contacto {
@@ -295,63 +446,4 @@ footer {
   margin-top: 35px;
   font-size: 0.7rem;
   background-color: #000;
-}
-/*!**************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/css/noticias.css ***!
-  \**************************************************************************************************************************/
-
-/*!************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/css/header.css ***!
-  \************************************************************************************************************************/
-.header {
-  width: 100vw;
-  height: 12.3vh;
-}
-
-.navbar-brand img {
-  height: 45px;
-  width: 60px;
-}
-
-.navbar {
-  width: 100vw;
-  z-index: 3;
-  background-image: linear-gradient(217deg, rgba(50, 230, 250, 0.8), rgba(19, 172, 189, 0) 70.71%), linear-gradient(127deg, rgba(110, 236, 250, 0.8), rgba(142, 235, 245, 0) 70.71%), linear-gradient(336deg, rgba(23, 145, 159, 0.8), rgba(7, 96, 106, 0) 70.71%);
-}
-
-#navbarNav {
-  padding-top: 15px;
-}
-
-.dropdown-menu {
-  background-image: linear-gradient(127deg, rgba(110, 236, 250, 0.8), rgba(142, 235, 245, 0) 70.71%), linear-gradient(336deg, rgba(23, 145, 159, 0.8), rgba(7, 96, 106, 0) 70.71%);
-}
-
-.nav-link:hover {
-  background-color: aliceblue;
-  border-radius: 10px;
-}
-
-@media (min-width: 769px) {
-  .header {
-    height: 10.5vh;
-  }
-  .container-fluid {
-    display: flex;
-  }
-  #navbarNav {
-    font-size: 1.3rem;
-    justify-content: end;
-    margin-right: 50px;
-  }
-  .nav-item {
-    margin-left: 50px;
-  }
-  .dropdown-menu {
-    border-radius: 10px;
-    font-size: 1.1rem;
-  }
-  .dropdown-item:hover {
-    border-radius: 10px;
-  }
 }

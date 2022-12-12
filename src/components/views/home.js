@@ -4,7 +4,6 @@ import CardList from "../fragments/cardList";
 import { useState, useEffect } from 'react';
 import SobreNos from "../fragments/sobrenos";
 import Institucional from "../fragments/institucional";
-import Footer from '../layout/footer';
 
 function Home() {
 
@@ -33,8 +32,6 @@ function Home() {
             <SobreNos />
 
             <Institucional />
-
-            <Footer />
 
         </>
 

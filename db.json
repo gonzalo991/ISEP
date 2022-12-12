@@ -17,75 +17,327 @@
             "planDeEstudios": {}
         }
     ],
+    "inscripciones": [
+        {
+            "copiaDni": "Fotocopia de DNI",
+            "copiaTitulo": "Título Secundario",
+            "foto": "2 fotos 4x4",
+            "certificado": "Certificado de buena salud",
+            "info": "Ingresantes de primer año: A partir del 1 de noviembre del año 2022 quedan abiertas las inscripciones para todos aquellos estudiantes que deseen cursar el primer año de la carrera durante el Ciclo Lectivo 2023, la documentación debrá presentarse de forma presencial en la sede de la institución."
+        }
+    ],
     "noticias": [
         {
             "_id": 1,
+            "imagen": "",
             "titulo": "Abiertas las inscripciones",
             "reseña": "Se abren las inscripciones en ISEP el día 1 de Marzo",
             "texto": "En el día de hoy 1 de marzo del 2022 se abrieron las inscripciones para todos aquellos estudiantes que quieran cursar las carreras que ofrecemos en isep. Deberan presentar la documentacion especificada en la sección de inscripciones."
         },
         {
             "_id": 2,
+            "imagen": "",
             "titulo": "Abiertas las inscripciones",
             "reseña": "Se abren las inscripciones en ISEP el día 1 de Marzo",
             "texto": "En el día de hoy 1 de marzo del 2022 se abrieron las inscripciones para todos aquellos estudiantes que quieran cursar las carreras que ofrecemos en isep. Deberan presentar la documentacion especificada en la sección de inscripciones."
         },
         {
             "_id": 3,
+            "imagen": "",
             "titulo": "Abiertas las inscripciones",
             "reseña": "Se abren las inscripciones en ISEP el día 1 de Marzo",
             "texto": "En el día de hoy 1 de marzo del 2022 se abrieron las inscripciones para todos aquellos estudiantes que quieran cursar las carreras que ofrecemos en isep. Deberan presentar la documentacion especificada en la sección de inscripciones."
         },
         {
             "_id": 4,
+            "imagen": "",
             "titulo": "Abiertas las inscripciones",
             "reseña": "Se abren las inscripciones en ISEP el día 1 de Marzo",
             "texto": "En el día de hoy 1 de marzo del 2022 se abrieron las inscripciones para todos aquellos estudiantes que quieran cursar las carreras que ofrecemos en isep. Deberan presentar la documentacion especificada en la sección de inscripciones."
         },
         {
             "_id": 5,
+            "imagen": "",
             "titulo": "Abiertas las inscripciones",
             "reseña": "Se abren las inscripciones en ISEP el día 1 de Marzo",
             "texto": "En el día de hoy 1 de marzo del 2022 se abrieron las inscripciones para todos aquellos estudiantes que quieran cursar las carreras que ofrecemos en isep. Deberan presentar la documentacion especificada en la sección de inscripciones."
         },
         {
             "_id": 6,
+            "imagen": "",
             "titulo": "Abiertas las inscripciones",
             "reseña": "Se abren las inscripciones en ISEP el día 1 de Marzo",
             "texto": "En el día de hoy 1 de marzo del 2022 se abrieron las inscripciones para todos aquellos estudiantes que quieran cursar las carreras que ofrecemos en isep. Deberan presentar la documentacion especificada en la sección de inscripciones."
         },
         {
             "_id": 7,
+            "imagen": "",
             "titulo": "Abiertas las inscripciones",
             "reseña": "Se abren las inscripciones en ISEP el día 1 de Marzo",
             "texto": "En el día de hoy 1 de marzo del 2022 se abrieron las inscripciones para todos aquellos estudiantes que quieran cursar las carreras que ofrecemos en isep. Deberan presentar la documentacion especificada en la sección de inscripciones."
         },
         {
             "_id": 8,
+            "imagen": "",
             "titulo": "Abiertas las inscripciones",
             "reseña": "Se abren las inscripciones en ISEP el día 1 de Marzo",
             "texto": "En el día de hoy 1 de marzo del 2022 se abrieron las inscripciones para todos aquellos estudiantes que quieran cursar las carreras que ofrecemos en isep. Deberan presentar la documentacion especificada en la sección de inscripciones."
         },
         {
             "_id": 9,
+            "imagen": "",
             "titulo": "Abiertas las inscripciones",
             "reseña": "Se abren las inscripciones en ISEP el día 1 de Marzo",
             "texto": "En el día de hoy 1 de marzo del 2022 se abrieron las inscripciones para todos aquellos estudiantes que quieran cursar las carreras que ofrecemos en isep. Deberan presentar la documentacion especificada en la sección de inscripciones."
         },
         {
             "_id": 10,
+            "imagen": "",
             "titulo": "Abiertas las inscripciones",
             "reseña": "Se abren las inscripciones en ISEP el día 1 de Marzo",
             "texto": "En el día de hoy 1 de marzo del 2022 se abrieron las inscripciones para todos aquellos estudiantes que quieran cursar las carreras que ofrecemos en isep. Deberan presentar la documentacion especificada en la sección de inscripciones."
         },
         {
             "_id": 11,
+            "imagen": "",
             "titulo": "Abiertas las inscripciones",
             "reseña": "Se abren las inscripciones en ISEP el día 1 de Marzo",
             "texto": "En el día de hoy 1 de marzo del 2022 se abrieron las inscripciones para todos aquellos estudiantes que quieran cursar las carreras que ofrecemos en isep. Deberan presentar la documentacion especificada en la sección de inscripciones."
         },
         {
             "_id": 12,
+            "imagen": "",
+            "titulo": "Abiertas las inscripciones",
+            "reseña": "Se abren las inscripciones en ISEP el día 1 de Marzo",
+            "texto": "En el día de hoy 1 de marzo del 2022 se abrieron las inscripciones para todos aquellos estudiantes que quieran cursar las carreras que ofrecemos en isep. Deberan presentar la documentacion especificada en la sección de inscripciones."
+        },
+        {
+            "_id": 13,
+            "imagen": "",
+            "titulo": "Abiertas las inscripciones",
+            "reseña": "Se abren las inscripciones en ISEP el día 1 de Marzo",
+            "texto": "En el día de hoy 1 de marzo del 2022 se abrieron las inscripciones para todos aquellos estudiantes que quieran cursar las carreras que ofrecemos en isep. Deberan presentar la documentacion especificada en la sección de inscripciones."
+        },
+        {
+            "_id": 14,
+            "imagen": "",
+            "titulo": "Abiertas las inscripciones",
+            "reseña": "Se abren las inscripciones en ISEP el día 1 de Marzo",
+            "texto": "En el día de hoy 1 de marzo del 2022 se abrieron las inscripciones para todos aquellos estudiantes que quieran cursar las carreras que ofrecemos en isep. Deberan presentar la documentacion especificada en la sección de inscripciones."
+        },
+        {
+            "_id": 15,
+            "imagen": "",
+            "titulo": "Abiertas las inscripciones",
+            "reseña": "Se abren las inscripciones en ISEP el día 1 de Marzo",
+            "texto": "En el día de hoy 1 de marzo del 2022 se abrieron las inscripciones para todos aquellos estudiantes que quieran cursar las carreras que ofrecemos en isep. Deberan presentar la documentacion especificada en la sección de inscripciones."
+        },
+        {
+            "_id": 16,
+            "imagen": "",
+            "titulo": "Abiertas las inscripciones",
+            "reseña": "Se abren las inscripciones en ISEP el día 1 de Marzo",
+            "texto": "En el día de hoy 1 de marzo del 2022 se abrieron las inscripciones para todos aquellos estudiantes que quieran cursar las carreras que ofrecemos en isep. Deberan presentar la documentacion especificada en la sección de inscripciones."
+        },
+        {
+            "_id": 17,
+            "imagen": "",
+            "titulo": "Abiertas las inscripciones",
+            "reseña": "Se abren las inscripciones en ISEP el día 1 de Marzo",
+            "texto": "En el día de hoy 1 de marzo del 2022 se abrieron las inscripciones para todos aquellos estudiantes que quieran cursar las carreras que ofrecemos en isep. Deberan presentar la documentacion especificada en la sección de inscripciones."
+        },
+        {
+            "_id": 18,
+            "imagen": "",
+            "titulo": "Abiertas las inscripciones",
+            "reseña": "Se abren las inscripciones en ISEP el día 1 de Marzo",
+            "texto": "En el día de hoy 1 de marzo del 2022 se abrieron las inscripciones para todos aquellos estudiantes que quieran cursar las carreras que ofrecemos en isep. Deberan presentar la documentacion especificada en la sección de inscripciones."
+        },
+        {
+            "_id": 19,
+            "imagen": "",
+            "titulo": "Abiertas las inscripciones",
+            "reseña": "Se abren las inscripciones en ISEP el día 1 de Marzo",
+            "texto": "En el día de hoy 1 de marzo del 2022 se abrieron las inscripciones para todos aquellos estudiantes que quieran cursar las carreras que ofrecemos en isep. Deberan presentar la documentacion especificada en la sección de inscripciones."
+        },
+        {
+            "_id": 20,
+            "imagen": "",
+            "titulo": "Abiertas las inscripciones",
+            "reseña": "Se abren las inscripciones en ISEP el día 1 de Marzo",
+            "texto": "En el día de hoy 1 de marzo del 2022 se abrieron las inscripciones para todos aquellos estudiantes que quieran cursar las carreras que ofrecemos en isep. Deberan presentar la documentacion especificada en la sección de inscripciones."
+        },
+        {
+            "_id": 21,
+            "imagen": "",
+            "titulo": "Abiertas las inscripciones",
+            "reseña": "Se abren las inscripciones en ISEP el día 1 de Marzo",
+            "texto": "En el día de hoy 1 de marzo del 2022 se abrieron las inscripciones para todos aquellos estudiantes que quieran cursar las carreras que ofrecemos en isep. Deberan presentar la documentacion especificada en la sección de inscripciones."
+        },
+        {
+            "_id": 22,
+            "imagen": "",
+            "titulo": "Abiertas las inscripciones",
+            "reseña": "Se abren las inscripciones en ISEP el día 1 de Marzo",
+            "texto": "En el día de hoy 1 de marzo del 2022 se abrieron las inscripciones para todos aquellos estudiantes que quieran cursar las carreras que ofrecemos en isep. Deberan presentar la documentacion especificada en la sección de inscripciones."
+        },
+        {
+            "_id": 23,
+            "imagen": "",
+            "titulo": "Abiertas las inscripciones",
+            "reseña": "Se abren las inscripciones en ISEP el día 1 de Marzo",
+            "texto": "En el día de hoy 1 de marzo del 2022 se abrieron las inscripciones para todos aquellos estudiantes que quieran cursar las carreras que ofrecemos en isep. Deberan presentar la documentacion especificada en la sección de inscripciones."
+        },
+        {
+            "_id": 24,
+            "imagen": "",
+            "titulo": "Abiertas las inscripciones",
+            "reseña": "Se abren las inscripciones en ISEP el día 1 de Marzo",
+            "texto": "En el día de hoy 1 de marzo del 2022 se abrieron las inscripciones para todos aquellos estudiantes que quieran cursar las carreras que ofrecemos en isep. Deberan presentar la documentacion especificada en la sección de inscripciones."
+        },
+        {
+            "_id": 25,
+            "imagen": "",
+            "titulo": "Abiertas las inscripciones",
+            "reseña": "Se abren las inscripciones en ISEP el día 1 de Marzo",
+            "texto": "En el día de hoy 1 de marzo del 2022 se abrieron las inscripciones para todos aquellos estudiantes que quieran cursar las carreras que ofrecemos en isep. Deberan presentar la documentacion especificada en la sección de inscripciones."
+        },
+        {
+            "_id": 26,
+            "imagen": "",
+            "titulo": "Abiertas las inscripciones",
+            "reseña": "Se abren las inscripciones en ISEP el día 1 de Marzo",
+            "texto": "En el día de hoy 1 de marzo del 2022 se abrieron las inscripciones para todos aquellos estudiantes que quieran cursar las carreras que ofrecemos en isep. Deberan presentar la documentacion especificada en la sección de inscripciones."
+        },
+        {
+            "_id": 27,
+            "imagen": "",
+            "titulo": "Abiertas las inscripciones",
+            "reseña": "Se abren las inscripciones en ISEP el día 1 de Marzo",
+            "texto": "En el día de hoy 1 de marzo del 2022 se abrieron las inscripciones para todos aquellos estudiantes que quieran cursar las carreras que ofrecemos en isep. Deberan presentar la documentacion especificada en la sección de inscripciones."
+        },
+        {
+            "_id": 28,
+            "imagen": "",
+            "titulo": "Abiertas las inscripciones",
+            "reseña": "Se abren las inscripciones en ISEP el día 1 de Marzo",
+            "texto": "En el día de hoy 1 de marzo del 2022 se abrieron las inscripciones para todos aquellos estudiantes que quieran cursar las carreras que ofrecemos en isep. Deberan presentar la documentacion especificada en la sección de inscripciones."
+        },
+        {
+            "_id": 29,
+            "imagen": "",
+            "titulo": "Abiertas las inscripciones",
+            "reseña": "Se abren las inscripciones en ISEP el día 1 de Marzo",
+            "texto": "En el día de hoy 1 de marzo del 2022 se abrieron las inscripciones para todos aquellos estudiantes que quieran cursar las carreras que ofrecemos en isep. Deberan presentar la documentacion especificada en la sección de inscripciones."
+        },
+        {
+            "_id": 30,
+            "imagen": "",
+            "titulo": "Abiertas las inscripciones",
+            "reseña": "Se abren las inscripciones en ISEP el día 1 de Marzo",
+            "texto": "En el día de hoy 1 de marzo del 2022 se abrieron las inscripciones para todos aquellos estudiantes que quieran cursar las carreras que ofrecemos en isep. Deberan presentar la documentacion especificada en la sección de inscripciones."
+        },
+        {
+            "_id": 31,
+            "imagen": "",
+            "titulo": "Abiertas las inscripciones",
+            "reseña": "Se abren las inscripciones en ISEP el día 1 de Marzo",
+            "texto": "En el día de hoy 1 de marzo del 2022 se abrieron las inscripciones para todos aquellos estudiantes que quieran cursar las carreras que ofrecemos en isep. Deberan presentar la documentacion especificada en la sección de inscripciones."
+        },
+        {
+            "_id": 32,
+            "imagen": "",
+            "titulo": "Abiertas las inscripciones",
+            "reseña": "Se abren las inscripciones en ISEP el día 1 de Marzo",
+            "texto": "En el día de hoy 1 de marzo del 2022 se abrieron las inscripciones para todos aquellos estudiantes que quieran cursar las carreras que ofrecemos en isep. Deberan presentar la documentacion especificada en la sección de inscripciones."
+        },
+        {
+            "_id": 33,
+            "imagen": "",
+            "titulo": "Abiertas las inscripciones",
+            "reseña": "Se abren las inscripciones en ISEP el día 1 de Marzo",
+            "texto": "En el día de hoy 1 de marzo del 2022 se abrieron las inscripciones para todos aquellos estudiantes que quieran cursar las carreras que ofrecemos en isep. Deberan presentar la documentacion especificada en la sección de inscripciones."
+        },
+        {
+            "_id": 34,
+            "imagen": "",
+            "titulo": "Abiertas las inscripciones",
+            "reseña": "Se abren las inscripciones en ISEP el día 1 de Marzo",
+            "texto": "En el día de hoy 1 de marzo del 2022 se abrieron las inscripciones para todos aquellos estudiantes que quieran cursar las carreras que ofrecemos en isep. Deberan presentar la documentacion especificada en la sección de inscripciones."
+        },
+        {
+            "_id": 35,
+            "imagen": "",
+            "titulo": "Abiertas las inscripciones",
+            "reseña": "Se abren las inscripciones en ISEP el día 1 de Marzo",
+            "texto": "En el día de hoy 1 de marzo del 2022 se abrieron las inscripciones para todos aquellos estudiantes que quieran cursar las carreras que ofrecemos en isep. Deberan presentar la documentacion especificada en la sección de inscripciones."
+        },
+        {
+            "_id": 36,
+            "imagen": "",
+            "titulo": "Abiertas las inscripciones",
+            "reseña": "Se abren las inscripciones en ISEP el día 1 de Marzo",
+            "texto": "En el día de hoy 1 de marzo del 2022 se abrieron las inscripciones para todos aquellos estudiantes que quieran cursar las carreras que ofrecemos en isep. Deberan presentar la documentacion especificada en la sección de inscripciones."
+        },
+        {
+            "_id": 37,
+            "imagen": "",
+            "titulo": "Abiertas las inscripciones",
+            "reseña": "Se abren las inscripciones en ISEP el día 1 de Marzo",
+            "texto": "En el día de hoy 1 de marzo del 2022 se abrieron las inscripciones para todos aquellos estudiantes que quieran cursar las carreras que ofrecemos en isep. Deberan presentar la documentacion especificada en la sección de inscripciones."
+        },
+        {
+            "_id": 38,
+            "imagen": "",
+            "titulo": "Abiertas las inscripciones",
+            "reseña": "Se abren las inscripciones en ISEP el día 1 de Marzo",
+            "texto": "En el día de hoy 1 de marzo del 2022 se abrieron las inscripciones para todos aquellos estudiantes que quieran cursar las carreras que ofrecemos en isep. Deberan presentar la documentacion especificada en la sección de inscripciones."
+        },
+        {
+            "_id": 39,
+            "imagen": "",
+            "titulo": "Abiertas las inscripciones",
+            "reseña": "Se abren las inscripciones en ISEP el día 1 de Marzo",
+            "texto": "En el día de hoy 1 de marzo del 2022 se abrieron las inscripciones para todos aquellos estudiantes que quieran cursar las carreras que ofrecemos en isep. Deberan presentar la documentacion especificada en la sección de inscripciones."
+        },
+        {
+            "_id": 40,
+            "imagen": "",
+            "titulo": "Abiertas las inscripciones",
+            "reseña": "Se abren las inscripciones en ISEP el día 1 de Marzo",
+            "texto": "En el día de hoy 1 de marzo del 2022 se abrieron las inscripciones para todos aquellos estudiantes que quieran cursar las carreras que ofrecemos en isep. Deberan presentar la documentacion especificada en la sección de inscripciones."
+        },
+        {
+            "_id": 41,
+            "imagen": "",
+            "titulo": "Abiertas las inscripciones",
+            "reseña": "Se abren las inscripciones en ISEP el día 1 de Marzo",
+            "texto": "En el día de hoy 1 de marzo del 2022 se abrieron las inscripciones para todos aquellos estudiantes que quieran cursar las carreras que ofrecemos en isep. Deberan presentar la documentacion especificada en la sección de inscripciones."
+        },
+        {
+            "_id": 42,
+            "imagen": "",
+            "titulo": "Abiertas las inscripciones",
+            "reseña": "Se abren las inscripciones en ISEP el día 1 de Marzo",
+            "texto": "En el día de hoy 1 de marzo del 2022 se abrieron las inscripciones para todos aquellos estudiantes que quieran cursar las carreras que ofrecemos en isep. Deberan presentar la documentacion especificada en la sección de inscripciones."
+        },
+        {
+            "_id": 43,
+            "imagen": "",
+            "titulo": "Abiertas las inscripciones",
+            "reseña": "Se abren las inscripciones en ISEP el día 1 de Marzo",
+            "texto": "En el día de hoy 1 de marzo del 2022 se abrieron las inscripciones para todos aquellos estudiantes que quieran cursar las carreras que ofrecemos en isep. Deberan presentar la documentacion especificada en la sección de inscripciones."
+        },
+        {
+            "_id": 44,
+            "imagen": "",
+            "titulo": "Abiertas las inscripciones",
+            "reseña": "Se abren las inscripciones en ISEP el día 1 de Marzo",
+            "texto": "En el día de hoy 1 de marzo del 2022 se abrieron las inscripciones para todos aquellos estudiantes que quieran cursar las carreras que ofrecemos en isep. Deberan presentar la documentacion especificada en la sección de inscripciones."
+        },
+        {
+            "_id": 45,
+            "imagen": "",
             "titulo": "Abiertas las inscripciones",
             "reseña": "Se abren las inscripciones en ISEP el día 1 de Marzo",
             "texto": "En el día de hoy 1 de marzo del 2022 se abrieron las inscripciones para todos aquellos estudiantes que quieran cursar las carreras que ofrecemos en isep. Deberan presentar la documentacion especificada en la sección de inscripciones."

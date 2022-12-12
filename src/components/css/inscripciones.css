@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai&family=IBM+Plex+Sans&family=Poppins:wght@700&family=Raleway:ital,wght@0,300;1,500&family=Roboto+Slab:wght@200&family=Roboto:wght@700&family=Teko:wght@300&display=swap');
+
+.inscripciones-container {
+    margin: auto;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+}
+
+.inscripciones-titulo {
+    font-size: 2rem;
+    color: coral;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.requisitos-container {
+    margin: 5px;
+    display: block;
+    align-items: center;
+}
+
+.requisitos-info {
+    font-size: 1.2rem;
+    text-indent: 15px;
+}
+
+.requisitos-img {
+    height: 98vh;
+    width: 95vw;
+
+    margin-top: 15px;
+}
+
+.requisitos-lista {
+   list-style: none;
+}
+
+.requisitos-texto {
+    text-align: center;
+}
+
+.requisitos-titulo {
+    text-align: center;
+    padding-left: 25px;
+}
+
+@media(min-width: 768px){
+
+.requisitos-container {
+    margin: 10px;
+}
+
+.requisitos-info {
+    margin: 40px 20px 20px 40px;
+    font-size: 2rem;
+}
+
+.requisitos-img {
+    margin: 25px 10px 25px 10px;
+}
+
+.requisitos {
+margin: 30px 0px 30px 0px;
+}
+
+}
+

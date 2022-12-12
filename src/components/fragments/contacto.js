@@ -11,7 +11,7 @@ function FormInput(props) {
     }
 
     return (
-        <div className="campo">
+        <div className="campo" key={id}>
             <label htmlFor={id}>{labelText}</label>
             <input type={type} id={id} name={name}
                 onChange={handleChange} value={value} />

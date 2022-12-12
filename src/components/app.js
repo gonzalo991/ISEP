@@ -1,22 +1,21 @@
 import React from "react";
-import { BrowserRouter } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 import './css/app.css';
 import Router from './router';
 import Header from "./layout/header";
+import Footer from "./layout/footer";
 
 function App() {
     return (
-        <BrowserRouter>
+        <HashRouter>
             <Header />
 
             <main>
                 <Router />
             </main>
 
-            <footer>
-
-            </footer>
-        </BrowserRouter>
+            <Footer />
+        </HashRouter>
     )
 }
 

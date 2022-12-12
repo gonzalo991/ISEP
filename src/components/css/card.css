@@ -2,7 +2,7 @@
     margin-top: 30px;
 }
 
-.card {
+.tarjetas .card {
     height: auto;
     width: 90vw;
     margin: 15px auto;
@@ -11,25 +11,25 @@
     border-radius: 10px;
 }
 
-.card:nth-child(1) {
+.tarjetas .card:nth-child(1) {
     background-color: greenyellow;
 }
 
-.card:nth-child(2){
+.tarjetas .card:nth-child(2){
     background-color: aqua;
 }
 
-.card-body {
+.tarjetas .card-body {
     color: #fff;
 }
 
-.card-title {
+.tarjetas .card-title {
     font-size: 1.6rem;
     font-weight: bold;
     font-style: oblique;
 }
 
-.card-text {
+.tarjetas .card-text {
     font-size: 1.3rem;
 }
 
@@ -41,18 +41,18 @@
         justify-content: space-between;
     }
 
-    .card {
+    .tarjetas .card {
         width: 30vw;
         height: 300px;
     }
 
-    .card:nth-child(1){
+    .tarjetas .card:nth-child(1){
         position: absolute;
         top: 590px;
         left: 120px;
     }
 
-    .card:nth-child(2){
+    .tarjetas .card:nth-child(2){
         position: absolute;
         top: 590px;
         right: 120px;
