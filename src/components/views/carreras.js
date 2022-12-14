@@ -1,8 +1,26 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+import InfoCarreras from "../fragments/infoCarreras";
+import '../css/carreras.css';
 
-function Carreras(){
-    return(
-        <h1>Carreras</h1>
+function Carreras() {
+
+    const [carrera, setCarrera] = useState([]);
+
+    useEffect(() => {
+        (async () => {
+            const response = await fetch("http://localhost:3001/carreras");
+            const carrera = await response.json();
+            setCarrera(carrera);
+        })()
+    }, [])
+
+    return (
+        <>
+            <div className="carreras-container">
+                <h1 className="carreras-titulo">Carreras</h1>
+                <InfoCarreras props={carrera} />
+            </div>
+        </>
     )
 }
 

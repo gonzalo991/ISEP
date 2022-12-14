@@ -2,19 +2,12 @@
     "carreras": [
         {
             "_id": 1,
-            "titulo": "Profesorado de Nivel Inicial",
+            "carrera": "Profesorado de Nivel Inicial",
+            "titulo": "Profesor/a de Nivel Inicio",
             "duracion": "4 años",
-            "incumbencias": "",
-            "especificas": "",
-            "planDeEstudios": {}
-        },
-        {
-            "id": "2",
-            "titulo": "Psicopedagogía",
-            "duracion": "4 años",
-            "incumbencias": "",
-            "especificas": "",
-            "planDeEstudios": {}
+            "instituto": "I.S.E.P N°8232",
+            "modalidad": "Presencial",
+            "horarios": "De Lunes a Viernes de 19:00 a 23:00hs"
         }
     ],
     "inscripciones": [

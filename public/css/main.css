@@ -96,7 +96,6 @@ h5 {
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/css/sobrenos.css ***!
   \**************************************************************************************************************************/
 .cabecera {
-  margin-top: 35px;
   text-align: center;
   text-decoration: underline;
   font-size: 1.5rem;
@@ -193,6 +192,41 @@ hr {
   .sede-info .sede-text {
     margin-bottom: 50px;
     font-size: 1.8rem;
+    text-align: center;
+  }
+}
+/*!**************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/css/carreras.css ***!
+  \**************************************************************************************************************************/
+.carreras-container {
+  background-image: url(/92207bed0ea2a7125883.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.carreras-titulo {
+  margin: 30px 0px 30px;
+  font-size: 1.8rem;
+  font-weight: 500;
+  text-decoration: underline;
+  text-align: center;
+  color: darkblue;
+}
+
+.tabla {
+  height: 90vh;
+  width: 90vw;
+  margin: 12px 10px 30px 12px;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+@media (min-width: 768px) {
+  .tabla {
+    height: 70vh;
+    width: 50vw;
+    margin: 70px 20px 70px 25%;
+    padding: 20px;
     text-align: center;
   }
 }

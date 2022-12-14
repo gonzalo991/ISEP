@@ -1,0 +1,39 @@
+.carreras-container {
+    background-image: url('../../../public/img/depositphotos_136460544-stock-illustration-group-of-children-with-blank.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.carreras-titulo {
+    margin: 30px 0px 30px;
+
+    font-size: 1.8rem;
+    font-weight: 500;
+
+    text-decoration: underline;
+    text-align: center;
+
+    color: darkblue;
+}
+
+.tabla {
+    height: 90vh;
+    width: 90vw;
+
+    margin: 12px 10px 30px 12px ;
+
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+@media(min-width: 768px) {
+    .tabla {
+        height: 70vh;
+        width: 50vw;
+
+        margin: 70px 20px 70px 25%;
+        padding: 20px;
+
+        text-align: center;
+    }
+}
