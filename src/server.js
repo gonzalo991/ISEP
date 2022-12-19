@@ -5,6 +5,7 @@ const dotenv = require('dotenv');
 dotenv.config({ path: './.env' });
 const path = require('path');
 const morgan = require('morgan');
+const mongoose = require('./database/db.database');
 
 //Middleware
 app.use(morgan('dev'));
@@ -15,9 +16,7 @@ app.use(express.static(path.join(__dirname, '../public')));
 
 
 //Rutas
-app.get('/', (req,res)=>{
-    res.send(`<h1>Hola mundo</h1>`)
-})
+app.use('/carreras', require('./routes/carreras.routes'));
 
 
 //Puerto
