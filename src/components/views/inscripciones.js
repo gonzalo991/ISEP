@@ -7,7 +7,7 @@ function Inscripciones() {
 
     useEffect(() => {
         (async () => {
-            const response = await fetch("http://localhost:3001/inscripciones");
+            const response = await fetch("/inscripciones");
             const requisitos = await response.json();
             setRequisitos(requisitos);
         })()

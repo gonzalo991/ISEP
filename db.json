@@ -1,15 +1,4 @@
 {
-    "carreras": [
-        {
-            "_id": 1,
-            "carrera": "Profesorado de Nivel Inicial",
-            "titulo": "Profesor/a de Nivel Inicio",
-            "duracion": "4 años",
-            "instituto": "I.S.E.P N°8232",
-            "modalidad": "Presencial",
-            "horarios": "De Lunes a Viernes de 19:00 a 23:00hs"
-        }
-    ],
     "inscripciones": [
         {
             "copiaDni": "Fotocopia de DNI",
@@ -338,12 +327,10 @@
     ],
     "tarjetas": [
         {
-            "_id": 1,
             "titulo": "Título Oficial",
             "texto": "Los títulos que otorgamos a nuestros egresados están avalados por el ministerio de educación."
         },
         {
-            "_id": 2,
             "titulo": "Los mejores profesores",
             "texto": "Contamos con el mejor equipo docente para que recibas educación de calidad. No pierdas ésta oportunidad."
         }

@@ -12,7 +12,7 @@ function Home() {
 
     useEffect(() => {
         (async () => {
-            const response = await fetch("http://localhost:3001/tarjetas");
+            const response = await fetch("/tarjetas");
             const tarjetas = await response.json();
             setTarjetas(tarjetas);
         })()

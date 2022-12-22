@@ -8,7 +8,7 @@ function Carreras() {
 
     useEffect(() => {
         (async () => {
-            const response = await fetch("http://localhost:3001/carreras");
+            const response = await fetch("/carreras");
             const carrera = await response.json();
             setCarrera(carrera);
         })()
